@@ -90,7 +90,7 @@ RegisterCommand('returnlostitems', function(source, args, rawCommand)
     -- TriggerClientEvent('chat:addMessage', source, {
     --     template = '{0} You have returned {1}\'s Lost items.',
     --     color = {252, 0, 0},
-    --     args = {'[!]:', targetPlayer.getName()}
+    --     args = {'[ ! ]:', targetPlayer.getName()}
     -- })
     
 end)
