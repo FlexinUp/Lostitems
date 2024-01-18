@@ -80,9 +80,9 @@ RegisterCommand('returnlostitems', function(source, args, rawCommand)
     TriggerClientEvent('ox_lib:notify', source, { 
         description = 'You have returned ' .. targetPlayer.getName() .. '\'s Lost items.', 
         position = 'top-right', 
-        style = { backgroundColor = '#141517', 
-        color = '#C1C2C5', 
-        ['.description'] = { color = '#909296'}}, 
+--        style = { backgroundColor = '#141517', 
+--        color = '#C1C2C5', 
+--        ['.description'] = { color = '#909296'}}, 
         type = 'success' 
     })
 
