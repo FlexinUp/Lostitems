@@ -154,9 +154,9 @@ if Config.DeathMessage then
     AddEventHandler('esx:onPlayerDeath', function(data)
         local source = source
         TriggerClientEvent('chat:addMessage', source, {
-            template = '{0}: You have died and lost your items, use /lostitems to see what you lost.',
+            template = '{0} You have died and lost your items, use /lostitems to see what you lost.',
             color    = {252, 0, 0},
-            args     = {'[!]'}
+            args     = {'[ ! ]:'}
         })
     end)
 end
