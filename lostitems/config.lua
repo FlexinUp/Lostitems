@@ -6,7 +6,7 @@ Config.takeInv = false -- Show player the Player's inventory be cleared once the
 -- (If you use this make sure you set Config.ShowItemsOnDeath to true or they won't beable to see their lostitems.)
 
  
-Config.ShowItemsOnDeath = false -- Should players recive a chat message showing their Lostitems? 
+Config.ShowItemsOnDeath = true -- Should players recive a chat message showing their Lostitems? 
 
 
-Config.DeathMessage = true -- Should their be a chat message telling the Player that they died and lost their items? (Set to false if you have Config.ShowItemsOnDeath set to ture)
+Config.DeathMessage = false -- Should their be a chat message telling the Player that they died and lost their items? (Set to false if you have Config.ShowItemsOnDeath set to ture)
